@@ -1,0 +1,177 @@
+body
+{
+    background-color: #041736;
+    color : #ba4a4a;
+    max-width : 100%;
+}
+a
+{
+    color : #ea5d39;
+    text-decoration: none;
+    font-size : 150%;
+}
+
+.break
+{
+    flex-basis : 100%;
+    height : 0;
+}
+
+/* Header */
+header
+{
+    text-transform : uppercase;
+    text-align: center;
+}
+
+@media (max-width : 800px)
+{
+    #hdT
+    {
+        font-size : 240%;
+    }
+}
+
+/* Navigation */
+nav
+{
+    border-bottom : 2px solid #ea5d39;
+}
+
+.navB
+{
+    margin-right : 8%;
+}
+
+/* Main */
+main
+{
+    max-width: 100%;
+}
+
+#ig1
+{
+    max-height : 350px;
+    width : auto;
+    margin-left : 15px;
+    border : 2px solid white;
+}
+
+#ig2
+{
+    max-height : 350px;
+    width : auto;
+    margin-left : 15px;
+    border : 2px solid white;
+}
+
+
+@media (min-width : 1050px)
+{
+    #ig2
+    {
+        display : none;    
+    }
+    #tm2
+    {
+        display : none;
+    }
+}
+
+@media (max-width : 1050px)
+{
+    #ig1
+    {
+        display : none;    
+    }
+    #tm1
+    {
+        display : none;
+    }
+}
+
+@media (max-width : 568px)
+{
+    #ig2
+    {
+        margin-bottom : 10%;
+    }
+}
+
+@media (max-width : 548px)
+{
+    #ig1
+    {
+        margin-left : 0;
+    }
+    #ig2
+    {
+        margin-left : 0;
+    }
+}
+
+.igD
+{
+    position : relative;
+    object-position: right;
+}
+
+.igDU
+{
+    border-bottom : 1px solid #ba4a4a;
+}
+
+/* Footer */
+footer
+{
+    display : flex;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #382a4f;
+}
+
+footer a:hover
+{
+    color : deeppink;
+}
+
+.contact
+{
+    display : block;
+    align-content: flex-start;
+    margin-left : 1%;
+}
+
+.social
+{
+    display : block;
+    align-content : flex-end;
+}
+
+.foot-ico i
+{
+    margin : 2% 0 0 2%;
+}
+
+.fa-facebook:hover
+{
+    color : dodgerblue;
+}
+
+fa-dribbble:hover
+{
+    color : deeppink;
+}
+
+.fa-twitter:hover
+{
+    color : deepskyblue;
+}
+
+.fa-instagram:hover
+{
+    color : deeppink;
+}
