@@ -66,6 +66,8 @@ a:hover
 {
     grid-column: 3 / 4;
     display : inline;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 #banner
@@ -197,18 +199,22 @@ a:hover
 #pr1
 {
     grid-column : 2 / 3;
+    margin-top : 4%;
 }
 #pr2
 {
     grid-column : 4 / 5;
+    margin-top : 4%;
 }
 #pr3
 {
     grid-column : 6 / 7;
+    margin-top : 4%;
 }
 #pr4
 {
     grid-column : 8 / 9;
+    margin-top : 4%;
 }
 .menuimg
 {
